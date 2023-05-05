@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Li Mei",
+    "name": "Li Ma",
     "image": "https://i.ibb.co/7VQnT2C/petr-sevcovic-e5-Q5v-WO55u-U-unsplash.jpg",
     "specialty": "Sichuan cuisine",
     "experience": "12 Year",
@@ -133,52 +133,6 @@
       {
         "name": "Chef of the Year",
         "year": 2017,
-        "organization": "China Food and Wine Association"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "name": "Ming Tsai",
-    "image": "https://i.ibb.co/jHwHSQn/1493372725547-chef-yu-bo-chengdu-family-kitchen.jpg",
-    "specialty": "Hunan cuisine",
-    "experience": "5 Year",
-    "like": "10k",
-    "N_resipes": "9",
-    "location": "Changsha, China",
-    "bio": "Wang Jun is a master of Hunan cuisine, known for his bold and spicy flavors. He has been cooking for over 25 years and has owned several successful restaurants in Changsha. In addition to his culinary skills, Wang Jun is also an avid photographer and often incorporates his photographs into the decor of his restaurants.",
-    "awards": [
-      {
-        "name": "Best Hunan Restaurant",
-        "year": 2011,
-        "organization": "Changsha Food Guide"
-      },
-      {
-        "name": "Chef of the Year",
-        "year": 2016,
-        "organization": "China Food and Wine Association"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "name": "Ching He Huang",
-    "image": "https://i.ibb.co/3hnQzc8/jeff-siepman-kyu-Pj-Zud-BKs-unsplash.jpg",
-    "specialty": "Guangdong cuisine",
-    "experience": "12 Year",
-    "like": "13k",
-    "N_resipes": "6",
-    "location": "Guangzhou, China",
-    "bio": "Chen Wei is a master of Guangdong cuisine, known for his fresh and delicate flavors. He has been cooking for over 30 years and has owned several successful restaurants in Guangzhou. In addition to his culinary skills, Chen Wei is also an accomplished painter and often incorporates his artwork into the decor of his restaurants.",
-    "awards": [
-      {
-        "name": "Best Guangdong Restaurant",
-        "year": 2013,
-        "organization": "Guangzhou Food Guide"
-      },
-      {
-        "name": "Chef of the Year",
-        "year": 2018,
         "organization": "China Food and Wine Association"
       }
     ]
