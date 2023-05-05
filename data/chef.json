@@ -1,189 +1,186 @@
-
-
-
 [
-    {
-        "id": 1,
-        "name": "Li Mei",
-        "image": "https://i.ibb.co/7VQnT2C/petr-sevcovic-e5-Q5v-WO55u-U-unsplash.jpg",
-        "specialty": "Sichuan cuisine",
-        "experience": "12 Year",
-        "like": "12k",
-        "N_resipes": "12",
-        "location": "Chengdu, China",
-        "bio": "Li Mei is a master of Sichuan cuisine, known for her bold and spicy flavors. She has been cooking for over 30 years and has owned several successful restaurants in Chengdu. In addition to her culinary skills, Li Mei is also an accomplished calligrapher and is known for her beautiful writing.",
-        "awards": [
-            {
-                "name": "Best Sichuan Restaurant",
-                "year": 2010,
-                "organization": "Chengdu Food Guide"
-            },
-            {
-                "name": "Chef of the Year",
-                "year": 2015,
-                "organization": "China Food and Wine Association"
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "name": "Liu Xia",
-        "image": "https://i.ibb.co/LdMFS0h/maks-styazhkin-ZDJ8kkkd7-RY-unsplash.jpg",
-        "specialty": "Shanghai cuisine",
-        "experience": "10 Year",
-        "like": "11.3k",
-        "N_resipes": "8",
-        "location": "Shanghai, China",
-        "bio": "Liu Xia is a master of Shanghai cuisine, known for her delicate and nuanced flavors. She has been cooking for over 20 years and has owned several successful restaurants in Shanghai. In addition to her culinary skills, Liu Xia is also an accomplished musician and plays the guzheng, a traditional Chinese instrument.",
-        "awards": [
-            {
-                "name": "Best Shanghai Restaurant",
-                "year": 2012,
-                "organization": "Shanghai Food Guide"
-            },
-            {
-                "name": "Chef of the Year",
-                "year": 2017,
-                "organization": "China Food and Wine Association"
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "name": "Wang Jun",
-        "image": "https://i.ibb.co/r72cHcW/ronan-kruithof-llc-X9p-Tjh-XM-unsplash.jpg",
-        "specialty": "Hunan cuisine",
-        "location": "Changsha, China",
-        "experience": "15 Year",
-        "like": "13k",
-        "N_resipes": "12",
-        "bio": "Wang Jun is a master of Hunan cuisine, known for his bold and spicy flavors. He has been cooking for over 25 years and has owned several successful restaurants in Changsha. In addition to his culinary skills, Wang Jun is also an avid photographer and often incorporates his photographs into the decor of his restaurants.",
-        "awards": [
-            {
-                "name": "Best Hunan Restaurant",
-                "year": 2011,
-                "organization": "Changsha Food Guide"
-            },
-            {
-                "name": "Chef of the Year",
-                "year": 2016,
-                "organization": "China Food and Wine Association"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Chen Wei",
-        "image": "https://i.ibb.co/qYZsd61/redcharlie-redcharlie1-t-7-KEq9-M0b0-unsplash.jpg",
-        "specialty": "Guangdong cuisine",
-        "experience": "11 Year",
-        "like": "10k",
-        "N_resipes": "4",
-        "location": "Guangzhou, China",
-        "bio": "Chen Wei is a master of Guangdong cuisine, known for his fresh and delicate flavors. He has been cooking for over 30 years and has owned several successful restaurants in Guangzhou. In addition to his culinary skills, Chen Wei is also an accomplished painter and often incorporates his artwork into the decor of his restaurants.",
-        "awards": [
-            {
-                "name": "Best Guangdong Restaurant",
-                "year": 2013,
-                "organization": "Guangzhou Food Guide"
-            },
-            {
-                "name": "Chef of the Year",
-                "year": 2018,
-                "organization": "China Food and Wine Association"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "name": "Martin Yan ",
-        "image": "https://i.ibb.co/8DqrF76/mohamed-nohassi-Ddgl-Eo-IC2y4-unsplash.jpg",
-        "specialty": "Sichuan cuisine",
-        "location": "Chengdu, China",
-        "experience": "08 Year",
-        "like": "10.2k",
-        "N_resipes": "8",
-        "bio": "Li Mei is a master of Sichuan cuisine, known for her bold and spicy flavors. She has been cooking for over 30 years and has owned several successful restaurants in Chengdu. In addition to her culinary skills, Li Mei is also an accomplished calligrapher and is known for her beautiful writing.",
-        "awards": [
-            {
-                "name": "Best Sichuan Restaurant",
-                "year": 2010,
-                "organization": "Chengdu Food Guide"
-            },
-            {
-                "name": "Chef of the Year",
-                "year": 2015,
-                "organization": "China Food and Wine Association"
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "name": "Ken Hom",
-        "image": "https://i.ibb.co/NFJ5Fk3/bluebird-provisions-l-RAWc-T7uwh-Y-unsplash.jpg",
-        "specialty": "Shanghai cuisine",
-        "location": "Shanghai, China",
-        "experience": "9 Year",
-        "like": "9.3k",
-        "N_resipes": "11",
-        "bio": "Liu Xia is a master of Shanghai cuisine, known for her delicate and nuanced flavors. She has been cooking for over 20 years and has owned several successful restaurants in Shanghai. In addition to her culinary skills, Liu Xia is also an accomplished musician and plays the guzheng, a traditional Chinese instrument.",
-        "awards": [
-            {
-                "name": "Best Shanghai Restaurant",
-                "year": 2012,
-                "organization": "Shanghai Food Guide"
-            },
-            {
-                "name": "Chef of the Year",
-                "year": 2017,
-                "organization": "China Food and Wine Association"
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "name": "Ming Tsai",
-        "image": "https://i.ibb.co/jHwHSQn/1493372725547-chef-yu-bo-chengdu-family-kitchen.jpg",
-        "specialty": "Hunan cuisine",
-        "experience": "5 Year",
-        "like": "10k",
-        "N_resipes": "9",
-        "location": "Changsha, China",
-        "bio": "Wang Jun is a master of Hunan cuisine, known for his bold and spicy flavors. He has been cooking for over 25 years and has owned several successful restaurants in Changsha. In addition to his culinary skills, Wang Jun is also an avid photographer and often incorporates his photographs into the decor of his restaurants.",
-        "awards": [
-            {
-                "name": "Best Hunan Restaurant",
-                "year": 2011,
-                "organization": "Changsha Food Guide"
-            },
-            {
-                "name": "Chef of the Year",
-                "year": 2016,
-                "organization": "China Food and Wine Association"
-            }
-        ]
-    },
-    {
-        "id": 8,
-        "name": "Ching He Huang",
-        "image": "https://i.ibb.co/3hnQzc8/jeff-siepman-kyu-Pj-Zud-BKs-unsplash.jpg",
-        "specialty": "Guangdong cuisine",
-        "experience": "12 Year",
-        "like": "13k",
-        "N_resipes": "6",
-        "location": "Guangzhou, China",
-        "bio": "Chen Wei is a master of Guangdong cuisine, known for his fresh and delicate flavors. He has been cooking for over 30 years and has owned several successful restaurants in Guangzhou. In addition to his culinary skills, Chen Wei is also an accomplished painter and often incorporates his artwork into the decor of his restaurants.",
-        "awards": [
-            {
-                "name": "Best Guangdong Restaurant",
-                "year": 2013,
-                "organization": "Guangzhou Food Guide"
-            },
-            {
-                "name": "Chef of the Year",
-                "year": 2018,
-                "organization": "China Food and Wine Association"
-            }
-        ]
-    }
+  {
+    "id": 1,
+    "name": "Li Mei",
+    "image": "https://i.ibb.co/7VQnT2C/petr-sevcovic-e5-Q5v-WO55u-U-unsplash.jpg",
+    "specialty": "Sichuan cuisine",
+    "experience": "12 Year",
+    "like": "12k",
+    "N_resipes": "12",
+    "location": "Chengdu, China",
+    "bio": "Li Mei is a master of Sichuan cuisine, known for her bold and spicy flavors. She has been cooking for over 30 years and has owned several successful restaurants in Chengdu. In addition to her culinary skills, Li Mei is also an accomplished calligrapher and is known for her beautiful writing.",
+    "awards": [
+      {
+        "name": "Best Sichuan Restaurant",
+        "year": 2010,
+        "organization": "Chengdu Food Guide"
+      },
+      {
+        "name": "Chef of the Year",
+        "year": 2015,
+        "organization": "China Food and Wine Association"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Liu Xia",
+    "image": "https://i.ibb.co/LdMFS0h/maks-styazhkin-ZDJ8kkkd7-RY-unsplash.jpg",
+    "specialty": "Shanghai cuisine",
+    "experience": "10 Year",
+    "like": "11.3k",
+    "N_resipes": "8",
+    "location": "Shanghai, China",
+    "bio": "Liu Xia is a master of Shanghai cuisine, known for her delicate and nuanced flavors. She has been cooking for over 20 years and has owned several successful restaurants in Shanghai. In addition to her culinary skills, Liu Xia is also an accomplished musician and plays the guzheng, a traditional Chinese instrument.",
+    "awards": [
+      {
+        "name": "Best Shanghai Restaurant",
+        "year": 2012,
+        "organization": "Shanghai Food Guide"
+      },
+      {
+        "name": "Chef of the Year",
+        "year": 2017,
+        "organization": "China Food and Wine Association"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Wang Jun",
+    "image": "https://i.ibb.co/r72cHcW/ronan-kruithof-llc-X9p-Tjh-XM-unsplash.jpg",
+    "specialty": "Hunan cuisine",
+    "location": "Changsha, China",
+    "experience": "15 Year",
+    "like": "13k",
+    "N_resipes": "12",
+    "bio": "Wang Jun is a master of Hunan cuisine, known for his bold and spicy flavors. He has been cooking for over 25 years and has owned several successful restaurants in Changsha. In addition to his culinary skills, Wang Jun is also an avid photographer and often incorporates his photographs into the decor of his restaurants.",
+    "awards": [
+      {
+        "name": "Best Hunan Restaurant",
+        "year": 2011,
+        "organization": "Changsha Food Guide"
+      },
+      {
+        "name": "Chef of the Year",
+        "year": 2016,
+        "organization": "China Food and Wine Association"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Chen Wei",
+    "image": "https://i.ibb.co/qYZsd61/redcharlie-redcharlie1-t-7-KEq9-M0b0-unsplash.jpg",
+    "specialty": "Guangdong cuisine",
+    "experience": "11 Year",
+    "like": "10k",
+    "N_resipes": "4",
+    "location": "Guangzhou, China",
+    "bio": "Chen Wei is a master of Guangdong cuisine, known for his fresh and delicate flavors. He has been cooking for over 30 years and has owned several successful restaurants in Guangzhou. In addition to his culinary skills, Chen Wei is also an accomplished painter and often incorporates his artwork into the decor of his restaurants.",
+    "awards": [
+      {
+        "name": "Best Guangdong Restaurant",
+        "year": 2013,
+        "organization": "Guangzhou Food Guide"
+      },
+      {
+        "name": "Chef of the Year",
+        "year": 2018,
+        "organization": "China Food and Wine Association"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Martin Yan ",
+    "image": "https://i.ibb.co/8DqrF76/mohamed-nohassi-Ddgl-Eo-IC2y4-unsplash.jpg",
+    "specialty": "Sichuan cuisine",
+    "location": "Chengdu, China",
+    "experience": "08 Year",
+    "like": "10.2k",
+    "N_resipes": "8",
+    "bio": "Li Mei is a master of Sichuan cuisine, known for her bold and spicy flavors. She has been cooking for over 30 years and has owned several successful restaurants in Chengdu. In addition to her culinary skills, Li Mei is also an accomplished calligrapher and is known for her beautiful writing.",
+    "awards": [
+      {
+        "name": "Best Sichuan Restaurant",
+        "year": 2010,
+        "organization": "Chengdu Food Guide"
+      },
+      {
+        "name": "Chef of the Year",
+        "year": 2015,
+        "organization": "China Food and Wine Association"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Ken Hom",
+    "image": "https://i.ibb.co/NFJ5Fk3/bluebird-provisions-l-RAWc-T7uwh-Y-unsplash.jpg",
+    "specialty": "Shanghai cuisine",
+    "location": "Shanghai, China",
+    "experience": "9 Year",
+    "like": "9.3k",
+    "N_resipes": "11",
+    "bio": "Liu Xia is a master of Shanghai cuisine, known for her delicate and nuanced flavors. She has been cooking for over 20 years and has owned several successful restaurants in Shanghai. In addition to her culinary skills, Liu Xia is also an accomplished musician and plays the guzheng, a traditional Chinese instrument.",
+    "awards": [
+      {
+        "name": "Best Shanghai Restaurant",
+        "year": 2012,
+        "organization": "Shanghai Food Guide"
+      },
+      {
+        "name": "Chef of the Year",
+        "year": 2017,
+        "organization": "China Food and Wine Association"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Ming Tsai",
+    "image": "https://i.ibb.co/jHwHSQn/1493372725547-chef-yu-bo-chengdu-family-kitchen.jpg",
+    "specialty": "Hunan cuisine",
+    "experience": "5 Year",
+    "like": "10k",
+    "N_resipes": "9",
+    "location": "Changsha, China",
+    "bio": "Wang Jun is a master of Hunan cuisine, known for his bold and spicy flavors. He has been cooking for over 25 years and has owned several successful restaurants in Changsha. In addition to his culinary skills, Wang Jun is also an avid photographer and often incorporates his photographs into the decor of his restaurants.",
+    "awards": [
+      {
+        "name": "Best Hunan Restaurant",
+        "year": 2011,
+        "organization": "Changsha Food Guide"
+      },
+      {
+        "name": "Chef of the Year",
+        "year": 2016,
+        "organization": "China Food and Wine Association"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Ching He Huang",
+    "image": "https://i.ibb.co/3hnQzc8/jeff-siepman-kyu-Pj-Zud-BKs-unsplash.jpg",
+    "specialty": "Guangdong cuisine",
+    "experience": "12 Year",
+    "like": "13k",
+    "N_resipes": "6",
+    "location": "Guangzhou, China",
+    "bio": "Chen Wei is a master of Guangdong cuisine, known for his fresh and delicate flavors. He has been cooking for over 30 years and has owned several successful restaurants in Guangzhou. In addition to his culinary skills, Chen Wei is also an accomplished painter and often incorporates his artwork into the decor of his restaurants.",
+    "awards": [
+      {
+        "name": "Best Guangdong Restaurant",
+        "year": 2013,
+        "organization": "Guangzhou Food Guide"
+      },
+      {
+        "name": "Chef of the Year",
+        "year": 2018,
+        "organization": "China Food and Wine Association"
+      }
+    ]
+  }
 ]
